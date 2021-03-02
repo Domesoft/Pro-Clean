@@ -1,0 +1,38 @@
+*{font-family: arial, sans-serif; margin: auto;}
+.specialcolor{color: cadetblue;}
+.specialbleu{color: rgb(63,72,204);}
+.gras{font-weight: bold; padding-bottom: 0.5em;}
+.nojustify{text-align: center;}
+.yesjustify{text-align: justify;}
+
+.logo{width: 70%;}
+nav{display: flex; flex-wrap: wrap; justify-content: space-between;}
+nav a{padding: 0.5em 1em; font-size: 1.5em; font-weight: bold; text-decoration: none;}
+nav a:hover{text-decoration: underline; font-style: italic; color: blue;}
+
+.bandeau{display: flex; background-image: url(../images/fond.jpg); background-size: cover; background-position: center; height: 600px;}
+.bandeau div{text-align: center; vertical-align: middle;}
+.bandeau h1{font-size: 3.5em; color: darkgreen;}
+.bandeau h2{font-size: 2.5em; color: darkgreen;}
+
+.entetes, .formulaire{width: 70%; padding: 1em;}
+.entetes h3, .formulaire h3{font-size: 2em; text-align: center; border-top: 1px solid blue; border-bottom: 1px solid blue; padding: 0.5em;}
+.entetes h4, .formulaire h4{font-size: 1.5em; padding-bottom: 1em; color: green;}
+
+section{display: flex; flex-wrap: wrap; justify-content: space-between;}
+.item{padding: 1em; max-width: 350px;}
+.item img{border-radius: 50%;}
+
+.champ{display: flex;}
+.champ, champbtn{padding-top: 0.5em; padding-bottom: 0.5em;}
+.champ label{width:19%; text-align: right;}
+.champ input, .champ textarea{width:79%; text-align: left;}
+textarea{height: 150px;}
+.champbtn{width: 100%; text-align: center;}
+.champbtn input{width: 100%; height: 50px; background-color: darkgreen; color: white; font-size: 1.5em; font-weight: bold;}
+
+footer{background-color: rgb(150,200,200); padding: 1em; display: flex; flex-wrap: wrap; justify-content: space-between;}
+footer{color: rgb(63,72,204);}
+footer h3, footer h4{text-align: center; padding-top: 0.5em;}
+footer a{text-decoration: none; color: rgb(63,72,204); font-weight: bold;}
+footer a:hover{text-decoration: underline; font-style: italic;} 
