@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width, maximum-scale=1" />
+        <title>Votre société de néttoyage</title>
+        
+        <style>
+            *{font-family: arial, sans-serif; margin: auto;}
+            .specialcolor{color: cadetblue;}
+            .specialbleu{color: rgb(63,72,204);}
+            .gras{font-weight: bold; padding-bottom: 0.5em;}
+            
+            .logo{width: 70%;}
+            nav{display: flex; flex-wrap: wrap; justify-content: space-between;}
+            nav a{padding: 0.5em 1em; font-size: 1.5em; font-weight: bold; text-decoration: none;}
+            nav a:hover{text-decoration: underline; font-style: italic; color: blue;}
+            
+            .bandeau{display: flex; background-image: url(images/fond.jpg); background-size: cover; background-position: center; height: 600px;}
+            .bandeau div{text-align: center; vertical-align: middle;}
+            .bandeau h1{font-size: 3.5em; color: darkgreen;}
+            .bandeau h2{font-size: 2.5em; color: darkgreen;}
+            
+            .entetes{width: 70%; padding: 1em;}
+            .entetes h3{font-size: 2em; text-align: center; border-top: 1px solid blue; border-bottom: 1px solid blue; padding: 0.5em;}
+            .entetes h4{font-size: 1.5em; padding-bottom: 1em; color: green;}
+            
+            section{display: flex; flex-wrap: wrap; justify-content: space-between;}
+            .item{padding: 1em; max-width: 350px;}
+            .item p{text-align: justify;}
+            .item img{border-radius: 50%;}
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <div class="logo">
+                <a href="#"><img alt="logo" title="Logo" src="images/logo.png" /></a>
+            </div>
+            <nav>
+                <a class="specialcolor" href="#">Menu 01</a>
+                <a class="specialcolor" href="#">Menu 02</a>
+                <a class="specialcolor" href="#">Menu 03</a>
+                <a class="specialcolor" href="#">Menu 04</a>
+            </nav>
+        </header>
+        
+        <div class="bandeau">
+            <div>
+                <h1>Votre prestataire nettoyage et prestations urgentes</h1>
+                <h2>sous-titre</h2>
+            </div>
+        </div>
+        
+        <div class="entetes">
+            <h3 class="specialbleu">POURQUOI NOUS CHOISIR ?</h3>
+            <h4>3 raisons de choisir nos services:</h4>
+            <section>
+                <div class="item">
+                    <p class="gras">Les intervenants ne sont que des professionnels</p>
+                    <p>Dans 90% des cas, les personnes intervenantes chez vous sont des personnes enregistrées en qualité de travailleur non-salariés. Ceci limite les risques d'absentéisme et vous assure un travail de grande qualité.</p>
+                </div>
+
+                <div class="item">
+                    <p class="gras">Nous utilisons toujours des produits écologique</p>
+                    <p>Quelque soient les travaux, nous nous efforçons de choisir nos fournisseurs pouvant nous approvisionner en produits écologique. Ainsi, vous pourrez justifier que vous aussi, vous participez à l'éco-responsabilité.</p>
+                </div>
+
+                <div class="item">
+                    <p class="gras">Une transparence totale!</p>
+                    <p>En choisissant Pros-Clean, vous vous assurez un partenaire totalement transparent. Aucune surprise dans les contrats, vous bénéficiez d'un suivi régulier de la prestation, vous aurez toujours un interlocuteur en cas de besoin, nous sommes ouverts à toutes modifications.</p>
+                </div>
+            </section>
+        </div>
+        
+        <div class="entetes">
+            <h3 class="specialbleu">QUI SOMMES NOUS ?</h3>
+            <h4>A propos de nous:</h4>
+            <p>Pro-Clean à été fondé par un responsable de site et un agent qualifié d'une grand entreprise de nettoyage souhaitant offrir un service de nettoyage artisanel et eco-responsable tout en gardant un relationnel entre notre société et ses Clients.</p>
+            <section>
+                <div class="item">
+                    <p class="gras">Dominique JORION</p>
+                    <img alt="Dominique JORION" title="Dominique JORION" src="images/dominique.png" />
+                </div>
+                <div class="item">
+                    <p class="gras">Parissa RASHNAVADI</p>
+                    <img alt="Dominique JORION" title="Dominique JORION" src="images/parissa.png" />
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
